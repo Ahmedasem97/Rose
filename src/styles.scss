@@ -5,37 +5,37 @@
 
 // ======================== [ All Fonts ] =============================
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-Regular.woff2);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-Medium.woff2);
   font-weight: 500;
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-SemiBold.woff2);
   font-weight: 600;
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-Bold.woff2);
   font-weight: 700;
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-ExtraBold.woff2);
   font-weight: 800;
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Inter;
   src: url(assets/fonts/Inter_28pt-Black.woff2);
   font-weight: 900;
 }
@@ -56,4 +56,10 @@
   --subject-line-height: 2px;
   --subject-line-width: 161px;
   --subject-line-color: var(--primary-color);
+}
+
+// ======================== [ Global Rules ] ====================
+
+body {
+  font-family: Inter, Helvetica, sans-serif;
 }
